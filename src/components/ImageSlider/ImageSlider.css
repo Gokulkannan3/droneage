@@ -5,3 +5,13 @@
 .dot-style{
     color:"white",
 }
+
+.leftArrow{
+    background-color: rgb(93, 93, 93);
+    opacity: .6;
+    border-radius: 50px;
+    height:60px;
+    width:60px;
+    padding-bottom: 0px;
+
+}
