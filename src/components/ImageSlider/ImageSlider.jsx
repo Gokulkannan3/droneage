@@ -65,10 +65,10 @@ const ImageSlider = ({images}) => {
         
         <div style={sliderStyles}>
             
-            <div style={leftArrowStyles} onClick={goToPrevious}>
+            <div style={leftArrowStyles} onClick={goToPrevious} className="leftArrow">
             &lt;
             </div>
-            <div style={rightArrowStyles} onClick={goToNext}> 
+            <div style={rightArrowStyles} onClick={goToNext} className="rightArrow"> 
             &gt;
             </div>
             <div style={slideStyles}></div>
