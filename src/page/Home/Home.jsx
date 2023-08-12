@@ -7,16 +7,23 @@ import img3 from '../../assets/bg3.jpg'
 import img4 from '../../assets/bg4.jpg'
 const Home = ()=>{
     const images = [
-        img1,
-        img2,
-        img3,
-        img4,
+        {url:img1},
+        {url:img2},
+        {url:img3},
+        {url:img4},
     ];
-    
+    const containerStyles = {
+        width:'1536px',
+        height:'600px',
+        margin:'0 auto',
+    };
     return(
         <div className="home-page">
-           <ImageSlider images={images}/>
-            
+            <div style={containerStyles}>
+                <ImageSlider images={images} />
+            </div>
+           
+
         </div>
     )
 }
