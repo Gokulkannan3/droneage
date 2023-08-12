@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import './ImageSlider.css'
 const ImageSlider = ({images}) => {
     const [currentIndex,setCurrentIndex]=useState(0)
+    const isFirstSlide = currentIndex === 0
+    const isLastSide = currentIndex === images.length-1
     const sliderStyles = {
         height:'100%',
         position:'relative',
@@ -42,6 +44,7 @@ const ImageSlider = ({images}) => {
     }
     const goToNext = ()=>{
         const isLastSide = currentIndex === images.length-1
+        
         const newIndex = isLastSide? 0 :currentIndex +1;
         setCurrentIndex(newIndex)
     }
@@ -65,11 +68,24 @@ const ImageSlider = ({images}) => {
         
         <div style={sliderStyles}>
             
-            <div style={leftArrowStyles} onClick={goToPrevious} className="leftArrow">
-            &lt;
+            <div style={leftArrowStyles} onClick={goToPrevious} >
+                
+                {!isFirstSlide && 
+                    <div className="leftArrow-div">
+                        <p className="leftArrow">&lt;</p>
+                        <div className="leftArrow-bg"></div>
+                    </div>
+                }
+                
             </div>
-            <div style={rightArrowStyles} onClick={goToNext} className="rightArrow"> 
-            &gt;
+            <div style={rightArrowStyles} onClick={goToNext} className="rightArrow">
+                {!isLastSide && 
+                    <div className="rightArrow-div">
+                        <p className="rightArrow">&gt;</p>
+                        <div className="rightArrow-bg"></div>
+                    </div>
+                } 
+                
             </div>
             <div style={slideStyles}></div>
             <div style={dotsContainerStyles} className="dotsStyle">
