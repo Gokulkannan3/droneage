@@ -1,14 +1,8 @@
-.dotsStyle{
-    margin-top:-140px;
-    margin-left: 660px;
-}
-.dot-style{
-    color:"white",
-}
+
 
 .leftArrow-bg{
     display:flex; 
-    background-color: rgb(69, 69, 69);
+    background-color: rgb(161, 161, 161);
     opacity: .5;
     border-radius: 40px;
     height:70px;
@@ -45,7 +39,7 @@
 .rightArrow-bg{
     display:flex;
     transition: .2s;
-    background-color: rgb(67, 67, 67);
+    background-color: rgb(162, 162, 162);
     opacity: .5;
     border-radius: 40px;
     height:70px;
@@ -57,4 +51,40 @@
 }
 .rightArrow{
     z-index:1;
+}
+.image-control::after{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity:0.5;
+    z-index:0;   
+}
+.dotsStyle{
+    margin-top:-140px;
+    margin-left: 660px;
+    z-index: -999999;
+}
+.dot-style{
+    color:rgb(164, 164, 164);
+    transition: .3s;
+    z-index:999999;
+    
+}
+.dot-style:hover{
+    color:white;
+    /* height:0; */
+    /* transform: scaleX(2); */
+    transform: scaleY(1.01);
+    
+    
+}
+.dot-style:active{
+    color:rgb(124, 42, 42);
+    
+    
+    
 }

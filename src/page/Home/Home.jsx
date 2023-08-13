@@ -19,9 +19,17 @@ const Home = ()=>{
     };
     return(
         <div className="home-page">
+            
             <div style={containerStyles}>
+                
                 <ImageSlider images={images} />
             </div>
+            <div className="home-contant">
+                <h1>Dronage</h1>
+                <h3>Rent the Future's Fields</h3>
+                <h2>The Basic of Rental and Services</h2>
+            </div>
+            
            
 
         </div>

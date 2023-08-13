@@ -66,7 +66,7 @@ const ImageSlider = ({images}) => {
     }
     return(
         
-        <div style={sliderStyles}>
+        <div style={sliderStyles} className="image-control1">
             
             <div style={leftArrowStyles} onClick={goToPrevious} >
                 
@@ -87,12 +87,15 @@ const ImageSlider = ({images}) => {
                 } 
                 
             </div>
+            <div className="image-control"></div>
             <div style={slideStyles}></div>
             <div style={dotsContainerStyles} className="dotsStyle">
                 {images.map((image,slideIndex) => (
-                    <div key={slideIndex} className="dot-style" style={dotStyles} onClick={()=>goToSlide(slideIndex)}>	&#46; </div>
+                    <div key={slideIndex} className="dot-style" style={dotStyles} onClick={()=>goToSlide(slideIndex)}>	.
+                    </div>
                 ))}
             </div>
+            
         </div>
     )
 }
