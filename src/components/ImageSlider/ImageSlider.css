@@ -1,4 +1,9 @@
-
+.leftArrow-div{
+    margin-top: -100px;
+}
+.rightArrow-div{
+    margin-top: -100px;
+}
 
 .leftArrow-bg{
     display:flex; 

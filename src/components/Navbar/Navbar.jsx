@@ -9,7 +9,8 @@ const Navbar = ()=>{
             <div className='navbar'>
                 <div className='logo-img'>
                     <Link to='/' className='img-nav'>
-                        <img width="70" height="70" src="https://img.icons8.com/nolan/64/drone.png" alt="drone"/>
+                        
+                        <img width="60" height="60" src="https://img.icons8.com/external-vitaliy-gorbachev-fill-vitaly-gorbachev/60/ffffff/external-drone-blogger-vitaliy-gorbachev-fill-vitaly-gorbachev.png" alt="drone"/>
                         <h1>Dronage</h1>
                     </Link>
                     <form >

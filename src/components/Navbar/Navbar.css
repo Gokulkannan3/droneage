@@ -1,18 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
 .nav-main{
     align-items: center;
-    max-height:80px;
+    max-height: 70px;
     width:100%;
     margin:0% auto;
     position:fixed;
-    box-shadow: 0px 0px 5px rgb(0,0,0,0.3);
     z-index: 5;
     top:0%;
-    left:0%;
-    background-color: rgba(255, 255, 255, 0.5) ; 
-    backdrop-filter: blur(3px);
-    
+    left:0%; 
 }
-
 .navbar{
     align-items: center;
     min-height:80px;
@@ -37,15 +34,14 @@
 }
 .logo-img .img-nav h1{
     margin:15px 20px 0px 30px;
-    
     text-transform: uppercase;
-    letter-spacing: .5rem;
     font-size: 1.4rem;
     font-weight:400;
-    color:#660cab;
+    color:#ffffffb1;
 }
 
 .logo-img form{
+    margin-left:50px;
     margin-top: 10px;
     display:flex;
     float:left;
@@ -53,12 +49,11 @@
     
 }
 .logo-img form input{
-    max-height:30px;
+    max-height:40px;
     padding:0px 0px 0px 40px;
-    border-radius: 20px;
-    min-height:40px;
-    width:250px;
-    border-color: #7715c2;
+    border-radius: 50px;
+    width:200px;
+    border: none;
     
 }
 .logo-img form input:focus{
@@ -66,10 +61,10 @@
 }
 
 .logo-img form img{
-    margin-top: 8px;
+    margin-top: 7px;
     display: flex;
     float:left;
-    margin-left: -285px;
+    margin-left: -230px;
 
 }
 .nav-right{
@@ -88,32 +83,26 @@
 .nav-right .content-page .link-hd {
     text-decoration: none;
     margin-top: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     margin-right: 20px;
     font-size: 19px;
-    color:black;
+    color:rgb(255, 255, 255);
     padding:10px 20px;
     font-weight: 400;
-    background-color: rgb(240, 240, 240);
     cursor: pointer;
     letter-spacing: .2rem;
     
-    text-transform: uppercase;
     
 }   
 .nav-right .content-page .nav-btn{
     color:black;
     font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-right: 20px;
     margin-top: 15px;
     padding:10px 20px;
     letter-spacing: .1rem;
     margin-bottom:30px;
-    letter-spacing: .2rem;
     text-decoration: none;
-    text-transform: uppercase;
     font-weight: 400;
+    border-radius: 50px;
     background-color: rgb(240, 240, 240);
 }
