@@ -1,11 +1,27 @@
-import React from 'react'
+import React,{useState} from 'react'
 import {Link} from 'react-router-dom'
 import './Navbar.css'
 const Navbar = ()=>{
     var User = null;
     
+    const [fix,setFix] = useState(false)
+
+    function setFixedSidebar(){
+    
+        if(window.scrollY >=400){
+            setFix(true)
+        }
+        else{
+            setFix(false)
+        }
+    }
+    
+    window.addEventListener("scroll",setFixedSidebar)
+    
+    
+    
     return (
-        <nav className='nav-main'>
+        <nav className={fix ? 'nav-main fixed':'nav-main'}>
             <div className='navbar'>
                 <div className='logo-img'>
                     <Link to='/' className='img-nav'>

@@ -13,7 +13,7 @@ const Home = ()=>{
         {url:img4},
     ];
     const containerStyles = {
-        width:'1536px',
+        width:'1520px',
         height:'600px',
         margin:'0 auto',
     };
@@ -35,10 +35,11 @@ const Home = ()=>{
                         <h1>Elevate Your Vision: Professional Aerial Drone Services</h1>
                         <p>Experience innovation soaring through the skies. Our expert drone services provide dynamic aerial photography and videography, turning ordinary scenes into extraordinary memories.</p>
                     </div>
-                    <div className="Card-details">
-                        
+                    <div className="Card-details">   
                     </div>
-                    <div className="Card-details2">
+                    
+                
+                   <div className="Card-details2">
                         <h2>Service We Offer</h2>
                         <p>Unlock the potential of aerial imagery with our cutting-edge drone solutions. From cinematic landscapes to detailed inspections, we bring creativity and precision to every project</p>
                         <a href='/' className="btn-card">Get Now</a>
@@ -60,6 +61,14 @@ const Home = ()=>{
                             flexible rental periods, and expert guidance ensure a seamless experience.
                             Elevate your projects with top-notch equipment by contacting us today</p>
                         <a href='/' className="btn-card">Get Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="footer">
+                <div className="footer-content">
+                    <div className="footer-left">
+                        
                     </div>
                 </div>
             </div>

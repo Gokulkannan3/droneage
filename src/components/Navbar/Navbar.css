@@ -10,6 +10,19 @@
     top:0%;
     left:0%; 
 }
+.nav-main.fixed{
+    position:fixed;
+    
+    align-items: center;
+    margin-right: 0px;
+    font-size: 15px;
+    width:100%;
+    max-height:70px;
+    top:0%;
+    left:0%; 
+    background-color: rgba(55, 55, 55, 0.5) ; 
+    backdrop-filter: blur(3px);
+}
 .navbar{
     align-items: center;
     min-height:80px;
@@ -23,6 +36,7 @@
     float:left;
     margin-top:-5px;
 }
+
 .logo-img .img-nav{
     margin-left: -200px;
     display:flex;
@@ -44,7 +58,7 @@
 
 .logo-img form{
     margin-left:50px;
-    margin-top: 10px;
+    margin-top: 2px;
     display:flex;
     float:left;
     
@@ -70,6 +84,7 @@
 
 }
 .nav-right{
+    margin-top:-5px;
     display:flex;
     float:right;
    
