@@ -7,7 +7,7 @@ import Home from './page/Home/Home';
 const AllRoutes= ()=>{
     return(
         <Routes>
-            <Route exact path ='/home' element={<Home/>}/>   
+            <Route exact path ='/' element={<Home/>}/>   
        
        
        

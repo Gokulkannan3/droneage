@@ -20,10 +20,10 @@ const Navbar = ()=>{
                 </div>
                 <div className='nav-right'>
                     <div className='content-page'>
-                        <Link to='/home' className='link-hd'>
+                        <Link to='/' className='link-hd'>
                             Home
                         </Link>
-                        <Link to='/' className='link-hd'>
+                        <Link to='/contact' className='link-hd'>
                             Contact
                         </Link>
                         <>
