@@ -13,7 +13,7 @@ const Home = ()=>{
         {url:img4},
     ];
     const containerStyles = {
-        width:'1520px',
+        width:'1518px',
         height:'600px',
         margin:'0 auto',
     };
@@ -68,8 +68,46 @@ const Home = ()=>{
             <div className="footer">
                 <div className="footer-content">
                     <div className="footer-left">
+                        <h1>Dronage </h1>
+                        <p>Dronage is a seamless solution for individuals and businesses seeking to harness the power of drones without the commitment of ownership. Whether you need aerial photography for a special event, site inspections for construction projects, or agricultural surveys for precision farming, our diverse fleet of advanced drones is at your disposal.</p>
+                    </div>
+                    <div className="footer-right">
+                        <div className="service-footer">
+                            <h2>
+                            Our Services
+                            </h2>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Our Work</li>
+                                <li>Pricing</li>
+                                <li>Help Center</li>
+                                <li>Login</li>
+                            </ul>
+                        </div>
+                        <div className="Company-footer">
+                            <h2>Company</h2>
+                            <ul>
+                                <li>Terms of Use</li>
+                                <li>Contant Us</li>
+                            </ul>
+                        </div>
+                        <div className="Follow-Footer">
+                            <h2>Follow Us</h2>
+                            <ul>
+                                <li>Facebook</li>
+                                <li>Linkedin</li>
+                                <li>Instagram</li>
+                                <li>Dribble</li>
+
+                            </ul>
+                        </div>
                         
                     </div>
+                    
+                </div>
+                <div className="footer-bottom">
+                        <h4>Copyright &copy; 2023 Dronage</h4>
+                        <h4>Powered By Aravinth</h4>
                 </div>
             </div>
            
