@@ -44,9 +44,9 @@ const Navbar = ()=>{
                         </Link>
                         <>
                         { User===null ? 
-                        <Link to='/' className='nav-btn'>Log In</Link>
+                        <Link to='/login' className='nav-btn'>Log In</Link>
                         :
-                        <Link to='/' className='nav-btn'>Log out</Link>
+                        <Link to='/login' className='nav-btn'>Log out</Link>
                         }
 
                         </>

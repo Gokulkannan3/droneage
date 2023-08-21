@@ -1,7 +1,7 @@
 import React from "react";
 import './Home.css'
 import ImageSlider from '../../components/ImageSlider/ImageSlider'
-import img1 from '../../assets/bg1.jpg'
+import img1 from '../../assets/bg.jpg'
 import img2 from '../../assets/bg2.jpg'
 import img3 from '../../assets/bg3.jpg'
 import img4 from '../../assets/bg4.jpg'
@@ -13,7 +13,7 @@ const Home = ()=>{
         {url:img4},
     ];
     const containerStyles = {
-        width:'1518px',
+        width:'1519px',
         height:'600px',
         margin:'0 auto',
     };
