@@ -5,6 +5,7 @@ import img1 from '../../assets/bg.jpg'
 import img2 from '../../assets/bg2.jpg'
 import img3 from '../../assets/bg3.jpg'
 import img4 from '../../assets/bg4.jpg'
+import { NavLink } from "react-router-dom";
 const Home = ()=>{
     const images = [
         {url:img1},
@@ -42,7 +43,8 @@ const Home = ()=>{
                    <div className="Card-details2">
                         <h2>Service We Offer</h2>
                         <p>Unlock the potential of aerial imagery with our cutting-edge drone solutions. From cinematic landscapes to detailed inspections, we bring creativity and precision to every project</p>
-                        <a href='/' className="btn-card">Get Now</a>
+                    
+                        <NavLink to='/service' className='btn-card'>Get Now</NavLink>
                     </div>
                 </div>
                 <div className="DroneCard-Content">
