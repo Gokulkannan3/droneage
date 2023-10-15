@@ -1,0 +1,307 @@
+.home-contant {
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    color:white;
+}
+.home-contant h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+    letter-spacing: .7rem;
+    font-weight: 400;
+    
+}
+.home-contant h3{
+    text-transform: uppercase;
+    
+    letter-spacing: .7rem;
+    font-weight: 400;
+   
+}
+.home-contant h2{
+    text-transform: uppercase;
+    
+    letter-spacing: .7rem;
+    font-weight: 400;
+   
+}
+.ServiceCard{
+    padding:20px 0px;
+}
+.ServiceCard h1{
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: 100;
+    
+    text-transform: uppercase;
+    line-height: 150%;
+    font-size: 2rem;
+    letter-spacing: 0.6rem;
+}
+
+.ServiceCard p{
+    padding-left:200px;
+    padding-right: 200px;
+    font-weight:100;
+    padding-top: 10px;
+    line-height: 130%;
+    letter-spacing: 0.1rem;
+}
+.DroneCard-Content .Card-details{
+    align-items:center;
+    justify-content: center;
+    padding:150px;
+    border-radius:20px 20px 0 0;
+    background-image: url(../../assets/bg8.jpg);
+    background-position:center;
+    background-size:100%;
+    z-index:-10000;
+    font-size:3rem;
+    line-height: 5rem;
+    color:white;
+    background-color: black;
+    
+}
+
+.Card-details2 h2{
+    margin-top: -250px;
+    font-size: 3rem;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    color:rgb(0, 0, 0);   
+    z-index:999999; 
+}
+
+.Card-details2 p{
+    margin-top:-10px;
+    font-weight:0;
+    font-family:  'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-left:200px;
+    padding-right: 200px;
+    line-height: 130%;
+    letter-spacing: 0.2rem;
+    color:rgba(35, 35, 35, 0.986);
+    margin-bottom: 50px;
+    
+}
+
+.Card-details2 a {
+
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: .2rem;
+    margin-left:650px;
+    padding:15px 40px;
+    border:2px solid rgba(0, 0, 0, 0.73);
+    color:rgba(18, 18, 18, 0.714);
+    background-color: rgba(195, 195, 195, 0.238);
+    text-decoration: none;
+    transition: .2s;
+}
+
+.Card-details2 a:hover{
+    background-color: #41414156;
+}
+
+.Card-details1{
+    align-items:center;
+    justify-content: center;
+    padding:180px;
+    border-radius:20px 20px 0 0;
+    background-image: url(../../assets/bg7.jpg);
+    background-position:center;
+    background-size:100%;
+    z-index:-1;
+    font-size:3rem;
+    line-height: 5rem;
+    color:white;
+    
+}
+
+
+.Card-details1::after{
+    content:'';
+    position: absolute;
+    left:0;
+    margin-top: -131px;
+    height: 37.8%;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity:.3;
+    z-index:-10;   
+}
+.Card-details3 h2{
+    margin-top: -320px;
+    font-size: 3rem;
+    align-items: center;
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    color:rgb(37, 37, 37);    
+}
+
+.Card-details3 p{
+    margin-top:-10px;
+    font-weight:lighter;
+    font-family:  'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-left:200px;
+    padding-right: 200px;
+    line-height: 130%;
+    letter-spacing: 0.2rem;
+    color:rgba(224, 224, 224, 0.778);
+    margin-bottom: 50px;
+    
+}
+.Card-details3 a {
+
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: .2rem;
+    margin-left:650px;
+    padding:15px 40px;
+    border:2px solid #ffffff;
+    color:white;
+    background-color: rgba(195, 195, 195, 0.238);
+    text-decoration: none;
+    transition: .2s;
+}
+
+.Card-details3 a:hover{
+    background-color: #41414156;
+}
+
+.footer{
+    margin-top: 48px;
+    align-items: center;
+    justify-content: center;
+    max-height: 300px;
+    background-color: rgba(28, 28, 28, 0.842);
+    color:white;
+    
+}
+
+.footer-content{
+    display:flex;
+    max-height:300px;
+}
+
+.footer-left{
+    
+    margin-left: 150px;
+    max-width: 400px;
+}
+.footer-left h1{
+    align-items: center;
+    padding-top: 20px;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.footer-left p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    letter-spacing: .06rem;
+    color:#e2e2e256;
+
+}
+
+.footer-right{
+    display:flex;
+    margin-left: 300px;
+    margin-top: 10px;
+    
+}
+
+.footer-right .service-footer{
+    text-decoration: none;
+    margin-right: 100px;
+   
+}
+.service-footer h2{
+    color:#d1d1d156;
+    font-size: 14px;
+    letter-spacing: .1rem;
+}
+.Company-footer h2{
+    color:#d1d1d156;
+    font-size: 14px;
+    letter-spacing: .1rem;
+}
+.Follow-Footer h2{
+    color:#d1d1d156;
+    font-size: 14px;
+    letter-spacing: .1rem;
+}
+.footer-right .service-footer ul{
+    margin-top: 30px;
+    list-style: none;
+    margin-left: -40px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: .03rem;
+}
+
+.footer-right .Company-footer ul{
+    margin-top: 30px;
+    list-style: none;
+    margin-left: -40px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: .03rem;
+}
+.footer-right .Follow-Footer ul{
+    list-style: none;
+    margin-top: 30px;
+    margin-left: -40px;
+    font-size: 20px;
+    letter-spacing: .03rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.footer-right .Company-footer{
+    text-decoration: none;
+    margin-right: 100px;
+   
+}
+.footer-right .Follow-Footer{
+    text-decoration: none;
+  
+}
+.footer-right .service-footer ul li {
+    padding-bottom: 15px;
+}
+.footer-right .Company-footer ul li {
+    padding-bottom: 15px;
+}
+.footer-right .Follow-Footer ul li {
+    padding-bottom: 15px;
+}
+
+.footer-bottom{
+    display: flex;
+    margin-left: 110px;
+    margin-top: -40px;
+    font-family:monospace;
+    font-weight:100;
+    color:#eeeeee56;
+    font-size:15px ;
+}
+
+.footer-bottom h4{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}

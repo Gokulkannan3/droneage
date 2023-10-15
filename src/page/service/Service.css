@@ -1,0 +1,9 @@
+.Service_section{
+    position:relative;
+    text-align: center;
+    color:white;
+    min-width:100%;
+    min-height: 100%;
+    background-color: rgb(71, 71, 125) !important;
+}
+

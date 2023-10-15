@@ -1,0 +1,126 @@
+
+
+.nav-main{
+    align-items: center;
+    max-height: 70px;
+    width:100%;
+    margin:0% auto;
+    position:fixed;
+    z-index: 5;
+    top:0%;
+    left:0%; 
+    transition: .2s;
+}
+.nav-main.fixed{
+    position:fixed;
+    
+    align-items: center;
+    margin-right: 0px;
+    font-size: 15px;
+    width:100%;
+    max-height:70px;
+    top:0%;
+    left:0%; 
+    background-color: rgba(55, 55, 55, 0.5) ; 
+    backdrop-filter: blur(3px);
+}
+.navbar{
+    align-items: center;
+    min-height:80px;
+    display:flex;
+    float:inline-end;
+    justify-content:space-around;
+   
+}
+.logo-img{
+    display:flex;
+    float:left;
+    margin-top:-5px;
+}
+
+.logo-img .img-nav{
+    margin-left: -200px;
+    display:flex;
+    float:left;
+    text-decoration: none;
+}
+.logo-img .img-nav img{
+    margin-top: -5px;
+}
+.logo-img .img-nav h1{
+    margin:15px 20px 0px 30px;
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: .2rem;
+    font-size: 1.4rem;
+    font-weight:400;
+    color:#ffffff;
+}
+
+.logo-img form{
+    margin-left:50px;
+    margin-top: 2px;
+    display:flex;
+    float:left;
+    
+    
+}
+.logo-img form input{
+    max-height:40px;
+    padding:0px 0px 0px 40px;
+    border-radius: 50px;
+    width:200px;
+    border: none;
+    
+}
+.logo-img form input:focus{
+    outline:none;
+}
+
+.logo-img form img{
+    margin-top: 7px;
+    display: flex;
+    float:left;
+    margin-left: -230px;
+
+}
+.nav-right{
+    margin-top:-5px;
+    display:flex;
+    float:right;
+   
+}
+.nav-right .content-page{
+    display:flex;
+    float:right;
+    margin-right: -300px;
+    
+    
+} 
+
+.nav-right .content-page .link-hd {
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    font-size: 19px;
+    color:rgba(255, 255, 255);
+    padding:10px 20px;
+    font-weight: 400;
+    cursor: pointer;
+    letter-spacing: .2rem;
+    
+    
+}   
+.nav-right .content-page .nav-btn{
+    color:black;
+    font-size: 18px;
+    margin-top: 15px;
+    padding:10px 20px;
+    letter-spacing: .1rem;
+    margin-bottom:30px;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 50px;
+    background-color: rgb(240, 240, 240);
+}

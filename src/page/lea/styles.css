@@ -1,0 +1,29 @@
+@import url("~leaflet/dist/leaflet.css");
+.leaflet-container {
+  width: 2500px;
+  margin-left:350px;
+  height: 1000px;
+}
+.App{
+  margin-left:100px;
+  margin-top:90px;
+}
+.start-box{
+  transform:translateX(10000px); 
+}
+
+.book{
+  margin-top:10px;
+  margin-left:800px;
+}
+.book .btn{
+  padding:10px 20px;
+}
+
+@media screen and (max-width:1900px){
+  .leaflet-container{
+    width:1000px;
+    height:600px;
+    margin-left: 200px;
+  }
+}

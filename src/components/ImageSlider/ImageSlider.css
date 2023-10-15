@@ -1,0 +1,95 @@
+.leftArrow-div{
+    margin-top: -100px;
+}
+.rightArrow-div{
+    margin-top: -100px;
+}
+
+.leftArrow-bg{
+    display:flex; 
+    background-color: rgb(161, 161, 161);
+    opacity: .5;
+    border-radius: 40px;
+    height:70px;
+    width:70px;
+    background-position: center;
+    margin-left: -7px;
+    margin-top: -142px;
+    transition:.2s;
+}
+.leftArrowhidden-bg{
+    display:flex; 
+    background-color: rgb(201, 201, 201);
+    opacity: .5;
+    border-radius: 40px;
+    height:70px;
+    width:70px;
+    cursor:none;
+    background-position: center;
+    margin-left: -7px;
+    margin-top: -142px;
+    transition:.2s;
+}
+.leftArrow{
+    z-index:1;
+}
+.leftArrow-bg:hover{
+    background-color: rgb(185, 185, 185);
+    opacity: .3;
+}
+.rightArrow-bg:hover{
+    background-color: rgb(185, 185, 185);
+    opacity: .3;
+}
+.rightArrow-bg{
+    display:flex;
+    transition: .2s;
+    background-color: rgb(162, 162, 162);
+    opacity: .5;
+    border-radius: 40px;
+    height:70px;
+    width:70px;
+    background-position: center;
+    margin-left: -13px;
+    margin-top: -142px;
+
+}
+.rightArrow{
+    z-index:1;
+}
+.image-control::after{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity:0.5;
+    z-index:0;   
+}
+.dotsStyle{
+    margin-top:-140px;
+    margin-left: 660px;
+    z-index: -999999;
+}
+.dot-style{
+    color:rgb(164, 164, 164);
+    transition: .3s;
+    z-index:999999;
+    
+}
+.dot-style:hover{
+    color:white;
+    /* height:0; */
+    /* transform: scaleX(2); */
+    transform: scaleY(1.01);
+    
+    
+}
+.dot-style:active{
+    color:rgb(124, 42, 42);
+    
+    
+    
+}
