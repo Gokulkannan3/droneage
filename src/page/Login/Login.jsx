@@ -1,11 +1,16 @@
 import React,{useState} from "react"
+import { useNavigate } from "react-router-dom"
+import {useDispatch} from 'react-redux'
 import AboutAuth from './AboutAuth'
 import icon2 from '../../assets/bg1.jpg'
+import { signup,login } from '../../actions/auth'
 import './Auth.css'
 
 const Auth =()=>{
     
-
+    const[name,setName]=useState('')
+    const[password,setPassword]=useState('')
+    const[email,setEmail]=useState('')
     const [isSignup,setIsSignup]=useState(false)
     
 
@@ -13,7 +18,29 @@ const Auth =()=>{
         setIsSignup(!isSignup)
     }
 
-     
+    
+    const dispatch = useDispatch()
+    const navigate =useNavigate()  
+
+
+    const handleSubmit =(e)=>{
+        e.preventDefault()
+        if(isSignup){
+            if(!name||!email || !password ){
+                alert("Enter Full Details to SignUP")
+            }
+            dispatch(signup({name,email,password},navigate))
+        }
+        else{
+            if(!email || !password ){
+                alert("Enter Full Details to LogIn")
+            }
+            dispatch(login({email,password },navigate))
+        }
+        console.log({name,email,password})
+    }
+
+
     return (
         <section className="auth-section">
             
@@ -21,21 +48,22 @@ const Auth =()=>{
             <div className="auth-container">
                 <img className="auth-img" src={icon2} width={600} height={550} alt=""/>
                 
-                <form >
+                <form onSubmit={handleSubmit} >
                     {isSignup ? <p className="Log-text">User Signup</p>:<p className="Log-text">User Login</p> }
                    
                     {
                         isSignup && 
+                        isSignup && 
                         (
                             <label htmlFor="name">
                                 
-                                <input type="text" name="name" id="Name" placeholder="Name" />
+                                <input type="text" name="name" id="Name" placeholder="Name" onChange={(e)=>{setName(e.target.value)}}/>
                             </label>
                         )
                     }
                     <label htmlFor='email'>
                         
-                        <input type="email" name="email" id="email" placeholder='Email' />
+                        <input type="email" name="email" id="email" placeholder='Email' onChange={(e)=>{setEmail(e.target.value)}}/>
                     </label>
                     
                     <label htmlFor='password'>
